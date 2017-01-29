@@ -4,8 +4,6 @@
 <head>
     <link rel="shortcut icon" href="images/favicon.ico">
     <title>Foxrock Stables - First in Class</title>
-
-
     <meta name="description" content="Nestled in the foothils of Western Loudoun County, Foxrock Stables offers both instruction by 
 award winning trainers and state of the art equine accommodations.">
 
@@ -29,16 +27,9 @@ trail rides, horse shows, VHSA, Purcellville, Loudoun, Virginia, VA">
 </head>
 
 <body>
-    <div id="home"></div>
-    <strong> Error: </strong>
-    <div id="error"></div>
+    <div id="navbar"></div>
     <script>
-        $("#home").load("./home.html", function(response, status, xhr) {
-            if (status == 'error') {
-                var msg = "Sorry, error.";
-                $('#error').html(msg + xhr.status + " " + xhr.statusText)
-            }
-        });
+        $("#navbar").load("./navbar.html");
     </script>
 </body>
 
