@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form class="well form-horizontal" action="" method="post" id="registration_form">
+            <legend>Foxrock 2017 Summer Camp Registration</legend>
+
+            <div class="form-group">
+                <label for="fullName" class="col-md-4 control-label">Name</label>
+                <div class="col-md-4 input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input type="text" class="form-control" id="fullName" placeholder="Your name here.">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="addressLine1" class="col-md-4 control-label">Address 1</label>
+                <div class="col-md-4 input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                    <input type="text" class="form-control" id="addressLine1" placeholder="Address Line 1">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="addressLine2" class="col-md-4 control-label">Address 2</label>
+                <div class="col-md-4 input-group">
+                    <span class="input-group-addon"> <i class="glyphicon glyphicon-home"></i></span>
+                    <input type="text" class="form-control" id="addressLine2" placeholder="Address Line 2">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="daytimePhone" class="col-md-4 control-label">Daytime Phone</label>
+                <div class="col-md-4 input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+                    <input type="text" class="form-control" id="daytimePhone" placeholder="(111) 222-1234">
+                </div>
+            </div>
+            <div class="form-group ">
+                <label for="eveningPhone" class="col-md-4 control-label">Evening Phone</label>
+                <div class="col-md-4 input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-phone-alt"></i></span>
+                    <input type="text" class="form-control" id="eveningPhone" placeholder="(111) 222-1234">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="city" class="col-md-4 control-label">City</label>
+                <div class="col-md-4 input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                    <input type="text" class="form-control" id="city" placeholder="City">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="state" class="col-md-4 control-label">State</label>
+                <div class="col-md-4 input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-th-list"></i></span>
+                    <select name="state" class="form-control selectpicker" id="state">
+                        <option value=" ">Select your state</option>
+                        <option>Alabama</option>
+                        <option>Alaska</option>
+                        <option >Arizona</option>
+                        <option >Arkansas</option>
+                        <option >California</option>
+                        <option >Colorado</option>
+                        <option >Connecticut</option>
+                        <option >Delaware</option>
+                        <option >District of Columbia</option>
+                        <option> Florida</option>
+                        <option >Georgia</option>
+                        <option >Hawaii</option>
+                        <option >daho</option>
+                        <option >Illinois</option>
+                        <option >Indiana</option>
+                        <option >Iowa</option>
+                        <option> Kansas</option>
+                        <option >Kentucky</option>
+                        <option >Louisiana</option>
+                        <option>Maine</option>
+                        <option >Maryland</option>
+                        <option> Mass</option>
+                        <option >Michigan</option>
+                        <option >Minnesota</option>
+                        <option>Mississippi</option>
+                        <option>Missouri</option>
+                        <option>Montana</option>
+                        <option>Nebraska</option>
+                        <option>Nevada</option>
+                        <option>New Hampshire</option>
+                        <option>New Jersey</option>
+                        <option>New Mexico</option>
+                        <option>New York</option>
+                        <option>North Carolina</option>
+                        <option>North Dakota</option>
+                        <option>Ohio</option>
+                        <option>Oklahoma</option>
+                        <option>Oregon</option>
+                        <option>Pennsylvania</option>
+                        <option>Rhode Island</option>
+                        <option>South Carolina</option>
+                        <option>South Dakota</option>
+                        <option>Tennessee</option>
+                        <option>Texas</option>
+                        <option> Uttah</option>
+                        <option>Vermont</option>
+                        <option>Virginia</option>
+                        <option >Washington</option>
+                        <option >West Virginia</option>
+                        <option>Wisconsin</option>
+                        <option >Wyoming</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="zipcode" class="col-md-4 control-label">Zip Code</label>
+                <div class="col-md-4 input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                    <input type="text" class="form-control" id="zipcode" placeholder="Zipcode">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail" class="col-md-4 control-label">Email</label>
+                <div class="col-md-4 input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-4 col-xs-offset-2">
+                    <p>Check all weeks that apply:</p>
+                </div>
+
+            </div>
+            <div class="form-group" id="attendeeTemplate">
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-2">
+                        <input type="text" class="form-control" id="attendeeName" placeholder="Attendee Name">
+                    </div>
+                    <div class="col-md-1 ">
+                        <input type="text" class="form-control" id="attendeeAge" placeholder="Age">
+                    </div>
+                    <div class="col-md-3">
+                        <select name="age" class="form-control selectpicker" id="attendeeExp">
+                        <option value=" ">Riding Experience</option>
+                        <option>Beginner</option>
+                        <option>Intermediate</option>
+                        <option>Advanced</option>
+                    </select>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-1">
+                            <button type="button" class="btn btn-default hidden" id="removeButton">
+                            <i class="glypicon glyphicon-minus"></i> 
+                        </button>
+                            <div class="col-xs-1 inline">
+                                <button type="button" class="btn btn-default" id="addButton">
+                            <i class="glypicon glyphicon-plus"></i> 
+                        </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <p></p>
+                    <label class="col-md-3 col-md-offset-2">Attending These Dates:</label>
+                    <div class="col-md-4">
+                        <label class="checkbox-inline"><input type="checkbox" value="June26">June 26 - 30</label>
+                        <label class="checkbox-inline"><input type="checkbox" value="July17">July 17 - 21</label>
+                        <label class="checkbox-inline"><input type="checkbox" value="July31">July 31 - Aug 4</label>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <script>
+        var minusButton = '<span class="btn input-group-addon delete-field">(-)</span>',
+            attendeeIndex = 0;
+        $('#addButton').on('click', function() {
+            alert("Something")
+            attendeeIndex++;
+            var $template = $('#attendeeTemplate'),
+                $clone = $template
+                .clone()
+                .removeClass('hidden')
+                .removeAttr('id')
+                .attr('attendeeIndex', attendeeIndex)
+                .insertBefore($template);
+
+        })
+    </script>
+</body>
+
+</html>
