@@ -23,6 +23,15 @@
         <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
         <script src="./js/ie10-viewport-bug-workaround.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+        <style>
+            col-md-4 {
+                background-color: powderblue;
+            }
+            
+            col-xs-4 {
+                background-color: blue;
+            }
+        </style>
     </head>
 
     <body>
@@ -245,17 +254,17 @@
                                 <legend>Attendee Information:</legend>
                                 <div class="form-group hidden" id="attendeeTemplate">
                                     <div class="row">
-                                        <div class="col-xs-4 col-md-offset-1  inputGroupContainer">
+                                        <div class="col-xs-4 col-md-4  col-md-offset-1 col-lg-4 inputGroupContainer">
                                             <div class="input-group">
                                                 <input type="text" id="attendeeName" class="form-control attendeeName" placeholder="Attendee Name">
                                             </div>
                                         </div>
-                                        <div class="col-xs-2 inputGroupContainer">
+                                        <div class="col-xs-2 col-md-2 col-lg-1 inputGroupContainer">
                                             <div class="input-group">
                                                 <input type="text" class="form-control attendeeAge" id="attendeeAge" placeholder="Age">
                                             </div>
                                         </div>
-                                        <div class="col-xs-4 selectContainer">
+                                        <div class="col-xs-4 col-md-4 col-lg-2 selectContainer">
                                             <div class="input-group">
                                                 <select id="attendeeExperience" class="form-control selectpicker attendeeSelect">
                                                     <option value=" ">Riding Experience</option>
@@ -291,11 +300,11 @@
 
         <script>
             var attendeeIndex = 0,
-                addButton = '<div class="col-xs-1 col-xs-pull-4 addDiv"> \
+                addButton = '<div class="col-xs-1 col-md-1 addDiv"> \
                                 <button type="button" class="btn btn-default addButton">\
                                 <i class="glypicon glyphicon-plus"></i> \
                                 </button></div>',
-                removeButton = '<div class = "col-xs-1 col-xs-pull-4 removeDiv" > \
+                removeButton = '<div class = "col-xs-1 col-md-1 removeDiv" > \
                                     <button type = "button" class = "btn btn-default removeButton" > \
                                     <i class = "glypicon glyphicon-minus" ></i></button ></div>';
 
