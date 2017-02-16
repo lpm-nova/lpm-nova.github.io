@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Foxrock Stables</title>
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="./css/navbar-fixed-top.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
+        <script src="./js/ie10-viewport-bug-workaround.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+    </head>
+
+    <body>
+
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                     </button>
+                    <a class="navbar-brand" href="#">Foxrock Stables</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+
+        <div class="container">
+
+            <!-- Main component for a primary marketing message or call to action -->
+            <div class="jumbotron">
+                <h1>2017 Summer Camp</h1>
+                <p>Summer Day Camp for boys and girls, ages 6-18. Beginner through Advanced.</p>
+                <p></p>
+                <div class="container text-center">
+                    <a class="btn btn-lg btn-primary" href="#register" data-toggle="modal" role="button">Sign Up Today &raquo;</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Activities</h3>
+                    <p>Daily riding lessons</p>
+                    <p>Trail rides</p>
+                    <p>Pony games</p>
+                    <p>How to care for your horse or pony</p>
+                    <p>Tack and equipment use and care</p>
+                    <p>Water play for hot days - bring a bathing suit and towel</p>
+                    <p>Horse crafts and games</p>
+                    <p>Camp ‘Horse Show’ on Fridays at 3:00 PM</p>
+                    <p>Friday lunch provided</p>
+                    <p>After Camp Childcare until 6:00 pm available at an additional cost of $25/day. </p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Schedule</h3>
+                    <p>$375 per week</p>
+                    <p>9:00 AM to 4:00 PM</p>
+                    <p>June 26 - June 30</p>
+                    <p>July 17 - July 21</p>
+                    <p>July 31 - Aug 4</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Foxrock Stables</h3>
+                    <p>33744 Featherbed Farm Lane</p>
+                    <p>Middleburg, VA 20117</p>
+                    <p>Phone:</p>
+                    <ul>
+                        <li>703-346-4029</li>
+                        <li>703-297-0501</li>
+                    </ul>
+                    <p>Email: foxrockstables@aol.com</p>
+                </div>
+            </div>
+        </div>
+        <!-- /container -->
+        <div class="modal fade .hidden-xs" id="register" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form class="well form-horizontal" action="landing.php" method="POST" id="registration_form" data-toggle="validator">
+                        <div class="modal-header">
+                            <h3>Foxrock 2017 Summer Camp Registration</h3>
+                        </div>
+                        <div class="modal-body">
+                            <fieldset>
+                                <div class="form-group">
+                                    <label for="fullName" class="col-xs-4 control-label">Name</label>
+                                    <div class="col-xs-8 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                            <input name="fullName" type="text" class="form-control" id="fullName" placeholder="Your name here." data-minlength="2" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="addressLine1" class="col-xs-4 control-label">Address 1</label>
+                                    <div class="col-xs-8 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                                            <input name="address1" type="text" class="form-control" id="addressLine1" placeholder="Address Line 1" data-minlength="3" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="addressLine2" class="col-xs-4 control-label">Address 2</label>
+                                    <div class="col-xs-8 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"> <i class="glyphicon glyphicon-home"></i></span>
+                                            <input name="address2" type="text" class="form-control" id="addressLine2" placeholder="Address Line 2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="city" class="col-xs-4 control-label">City</label>
+                                    <div class="col-xs-8 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                                            <input name="city" type="text" class="form-control" id="city" placeholder="City" data-minlength="3" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="state" class="col-xs-4 control-label">State</label>
+                                    <div class="col-xs-8 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-th-list"></i></span>
+                                            <select name="state" class="form-control selectpicker" id="state" required>
+                                                    <option value=" ">Select your state</option>
+                                                    <option>Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option >Arizona</option>
+                                                    <option >Arkansas</option>
+                                                    <option >California</option>
+                                                    <option >Colorado</option>
+                                                    <option >Connecticut</option>
+                                                    <option >Delaware</option>
+                                                    <option >District of Columbia</option>
+                                                    <option> Florida</option>
+                                                    <option >Georgia</option>
+                                                    <option >Hawaii</option>
+                                                    <option >daho</option>
+                                                    <option >Illinois</option>
+                                                    <option >Indiana</option>
+                                                    <option >Iowa</option>
+                                                    <option> Kansas</option>
+                                                    <option >Kentucky</option>
+                                                    <option >Louisiana</option>
+                                                    <option>Maine</option>
+                                                    <option >Maryland</option>
+                                                    <option> Mass</option>
+                                                    <option >Michigan</option>
+                                                    <option >Minnesota</option>
+                                                    <option>Mississippi</option>
+                                                    <option>Missouri</option>
+                                                    <option>Montana</option>
+                                                    <option>Nebraska</option>
+                                                    <option>Nevada</option>
+                                                    <option>New Hampshire</option>
+                                                    <option>New Jersey</option>
+                                                    <option>New Mexico</option>
+                                                    <option>New York</option>
+                                                    <option>North Carolina</option>
+                                                    <option>North Dakota</option>
+                                                    <option>Ohio</option>
+                                                    <option>Oklahoma</option>
+                                                    <option>Oregon</option>
+                                                    <option>Pennsylvania</option>
+                                                    <option>Rhode Island</option>
+                                                    <option>South Carolina</option>
+                                                    <option>South Dakota</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option> Uttah</option>
+                                                    <option>Vermont</option>
+                                                    <option>Virginia</option>
+                                                    <option >Washington</option>
+                                                    <option >West Virginia</option>
+                                                    <option>Wisconsin</option>
+                                                    <option >Wyoming</option>
+                                                </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="zipcode" class="col-xs-4 control-label">Zip Code</label>
+                                    <div class="col-xs-8 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                                            <input name="zipcode" type="text" pattern="^[0-9]{5}(?:-[0-9]{4})?$" class="form-control" id="zipcode" placeholder="Zipcode">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="daytimePhone" class="col-xs-4 control-label">Primary Phone</label>
+                                    <div class="col-xs-8 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+                                            <input name="daytimePhone" type="tel" class="form-control" id="daytimePhone" placeholder="(111) 222-1234" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="eveningPhone" class="col-xs-4 control-label">Alternate Phone</label>
+                                    <div class="col-xs-8 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-phone-alt"></i></span>
+                                            <input name="eveningPhone" type="text" class="form-control" id="eveningPhone" placeholder="(111) 222-1234">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail" class="col-xs-4 control-label">Email</label>
+                                    <div class="col-xs-8 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                            <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <legend>Attendee Information:</legend>
+                                <div class="form-group hidden" id="attendeeTemplate">
+                                    <div class="row">
+                                        <div class="col-xs-4 col-xs-offset-1  inputGroupContainer">
+                                            <div class="input-group">
+                                                <input type="text" id="attendeeName" class="form-control attendeeName" placeholder="Attendee Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-2 inputGroupContainer">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control attendeeAge" id="attendeeAge" placeholder="Age">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4 selectContainer">
+                                            <div class="input-group">
+                                                <select id="attendeeExperience" class="form-control selectpicker attendeeSelect">
+                                                    <option value=" ">Riding Experience</option>
+                                                    <option>Beginner</option>
+                                                    <option>Intermediate</option>
+                                                    <option>Advanced</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row arButton"></div>
+                                    </div>
+                                    <div class="row">
+                                        <label class="control-label col-xs-3 col-xs-offset-1">Attending These Dates:</label>
+                                        <div class="row">
+                                            <label class="checkbox-inline"><input type="checkbox" class="dateRange[]" id="firstWeekReg" value="June26">June 26 - 30</label>
+                                            <label class="checkbox-inline"><input type="checkbox" class="dateRange[]" id="secondWeekReg" value="July17">July 17 - 21</label>
+                                            <label class="checkbox-inline"><input type="checkbox" class="dateRange[]" id="thirdWeekReg" value="July31">July 31 - Aug 4</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" id="submitForm">Submit<span class="glyphicon glyphicon-send"></span></button>
+                        <a class="btn btn-default" data-dismiss="modal">Close</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script>
+            var attendeeIndex = 0,
+                addButton = '<div class="col-xs-1 addDiv"> \
+                                <button type="button" class="btn btn-default addButton">\
+                                <i class="glypicon glyphicon-plus"></i> \
+                                </button></div>',
+                removeButton = '<div class = "col-xs-1 removeDiv" > \
+                                    <button type = "button" class = "btn btn-default removeButton" > \
+                                    <i class = "glypicon glyphicon-minus" ></i></button ></div>';
+
+            $('#submitForm').on('click', function() {
+                $('#registration_form').submit();
+            });
+
+            $('#registration_form').on('click', '.addButton', function(e) {
+                addAttendeeRow(function(a) {
+                    a.find('div.row.arButton').append(removeButton);
+                });
+
+            });
+            $('#registration_form').on('click', '.removeButton', function() {
+                $(this).parents('.form-group').remove();
+                attendeeIndex--;
+            });
+
+            function initAttendeeForm() {
+                addAttendeeRow(function(e) {
+                    e.find('div.row.arButton').append(addButton)
+                });
+            };
+
+            function addAttendeeRow(next) {
+                attendeeIndex++;
+                var $template = $('#attendeeTemplate'),
+                    $clone = $template.clone()
+                    .removeClass('hidden')
+                    .removeAttr('id')
+                    .attr('attendee-index', attendeeIndex)
+                    .insertBefore($template).end();
+                $clone.find('[id="attendeeName"]').attr('name', 'attendee[' + attendeeIndex + '][name]').removeAttr('id').end();
+                $clone.find('[id="attendeeAge"]').attr('name', 'attendee[' + attendeeIndex + '][age]').removeAttr('id').end();
+                $clone.find('[id="attendeeExperience"]').attr('name', 'attendee[' + attendeeIndex + '][experience]').removeAttr('id').end();
+                $clone.find('[id="firstWeekReg"]').attr('name', 'attendee[' + attendeeIndex + '][firstWeek]').removeAttr('id').end();
+                $clone.find('[id="secondWeekReg"]').attr('name', 'attendee[' + attendeeIndex + '][secondWeek]').removeAttr('id').end();
+                $clone.find('[id="thirdWeekReg"]').attr('name', 'attendee[' + attendeeIndex + '][thirdWeek]').removeAttr('id').end();
+                next($clone);
+            };
+
+            $(document).ready(function() {
+                $(window).keydown(function(event) {
+                    if (event.keyCode == 13) {
+                        event.preventDefault();
+                        return false;
+                    }
+                });
+                initAttendeeForm();
+                $('#registration_form').validator().on("submit", function(e) {
+                    if (e.isDefaultPrevented()) {}
+
+                })
+            });
+        </script>
+    </body>
+
+</html>
